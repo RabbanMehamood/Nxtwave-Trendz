@@ -1,4 +1,4 @@
-import Popup from 'reactjs-popup'
+import {Popup} from 'reactjs-popup'
 
 import Payment from '../Payment'
 
