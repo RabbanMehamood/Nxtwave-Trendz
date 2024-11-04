@@ -65,7 +65,7 @@ class LoginForm extends Component {
           className="password-input-field"
           value={password}
           onChange={this.onChangePassword}
-          placeholder="Password"
+          placeholder="type:rahul@2021"
         />
       </>
     )
@@ -85,7 +85,7 @@ class LoginForm extends Component {
           className="username-input-field"
           value={username}
           onChange={this.onChangeUsername}
-          placeholder="Username"
+          placeholder="type to login:rahul"
         />
       </>
     )
@@ -107,7 +107,7 @@ class LoginForm extends Component {
           alt="website logo"
         />
         <img
-          src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-login-img.png"
+          src="https://www.loginradius.com/blog/static/6d170d83a7074847494831a6df861d3c/d3746/cover-auth.jpg"
           className="login-img"
           alt="website login"
         />
@@ -120,7 +120,7 @@ class LoginForm extends Component {
           <div className="input-container">{this.renderUsernameField()}</div>
           <div className="input-container">{this.renderPasswordField()}</div>
           <button type="submit" className="login-button">
-            Login
+            Click to Login
           </button>
           {showSubmitError && <p className="error-message">*{errorMsg}</p>}
         </form>
