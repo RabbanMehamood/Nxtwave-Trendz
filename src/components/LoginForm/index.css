@@ -95,7 +95,7 @@
 .username-input-field {
   font-size: 14px;
   height: 40px;
-  border:   2px solid #C0C0C0;
+  border: 2px solid #c0c0c0;
 
   background-color: #000000;
   color: #ffffff;
@@ -108,7 +108,7 @@
 .password-input-field {
   font-size: 14px;
   height: 40px;
-  border:   2px solid #C0C0C0;
+  border: 2px solid #c0c0c0;
   background-color: #000000;
   color: #ffffff;
   border-radius: 2px;
