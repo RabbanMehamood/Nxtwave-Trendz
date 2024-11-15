@@ -4,7 +4,7 @@ import Header from '../Header'
 import EmptyCartView from '../EmptyCartView'
 import CartListView from '../CartListView'
 import CartSummary from '../CartSummary'
-
+// importing all the required components for cart
 import './index.css'
 
 const Cart = () => (
